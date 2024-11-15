@@ -24,8 +24,7 @@ d_r = R / n_r
 # set the number of time steps
 n_t = 5000
 # set the thermal conductivity of chicken meat (Siripon et al. 2007)
-# alpha = 0.4930
-alpha = 10
+alpha = 0.4930
 # set the time step
 d_t = d_r ** 2 / (2 * alpha)
 print('dt: ', d_t)
